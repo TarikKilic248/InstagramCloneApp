@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/image_profile"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            />
+
+        <TextView
+            android:id="@+id/recyclerViewUserEmailText"
+            android:layout_width="300dp"
+            android:layout_height="30dp"
+            android:layout_margin="5dp"
+            android:text="username text"
+            android:textSize="20sp"></TextView>
+    </LinearLayout>
+
+    <ImageView
+        android:layout_width="250dp"
+        android:layout_height="200dp"
+        android:layout_gravity="center"
+        android:id="@+id/recyclerViewImageView">
+    </ImageView>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:orientation="horizontal">
+
+        <com.google.android.material.textfield.TextInputLayout
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+            android:layout_width="180dp"
+            android:layout_height="40dp"
+            app:boxCornerRadiusTopEnd="10dp"
+            app:boxCornerRadiusTopStart="10dp">
+
+            <TextView
+                android:id="@+id/recyclerViewCommentText"
+                android:layout_width="180dp"
+                android:layout_height="50dp"
+                android:layout_marginBottom="20dp"
+                android:text="user comment"
+                android:paddingLeft="10dp"
+                android:textSize="20sp"></TextView>
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+
+        <ImageView
+            android:id="@+id/like"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="20dp"
+            android:background="@drawable/ic_like"
+            android:text="a "
+            android:textSize="10sp" />
+
+        <TextView
+            android:id="@+id/likes"
+            android:layout_width="155dp"
+            android:layout_height="50dp"
+            android:layout_weight="1"
+
+            android:textSize="30dp" />
+
+        <ImageView
+            android:id="@+id/comment"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="1dp"
+            android:background="@drawable/ic_comment"
+            android:text="a "
+            android:textSize="10sp" />
+
+        <TextView
+            android:id="@+id/commentCount"
+            android:layout_width="155dp"
+            android:layout_height="50dp"
+            android:layout_weight="1"
+
+            android:textSize="30dp" />
+    </LinearLayout>
+
+    <View
+        android:id="@+id/verticalLine"
+        android:layout_width="match_parent"
+        android:layout_height="5dp"
+        android:layout_centerHorizontal="true"
+        android:background="#000000" />
+
+
+</LinearLayout>
