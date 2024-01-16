@@ -103,6 +103,7 @@ public class FeedActivity extends AppCompatActivity {
     }
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
+        //menu baglanir
         MenuInflater menuInflater = getMenuInflater();
         menuInflater.inflate(R.menu.option_menu, menu);
         return super.onCreateOptionsMenu(menu);
@@ -110,10 +111,7 @@ public class FeedActivity extends AppCompatActivity {
 
     @Override
     public boolean onOptionsItemSelected(@NonNull MenuItem item) {
-        if(item.getItemId() == R.id.add_post){
-            Intent intentToUpload = new Intent(FeedActivity.this, UploadActivity.class);
-            startActivity(intentToUpload);
-        } else if (item.getItemId() == R.id.sign_out) {
+        if (item.getItemId() == R.id.sign_out) {
             //sigh out
             auth.signOut();
             Intent intentToMain = new Intent(FeedActivity.this, MainActivity.class);
