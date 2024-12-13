@@ -15,6 +15,8 @@ Giriş yap butonu
 	Basıldığında FeedActivity’e geçiş yapar
 	Eğer Email ve Password boş ise Toast mesajı çıkar.
 
+ 
+
 
 II. Ana Ekran(FeedActivity):
 
@@ -25,6 +27,7 @@ Upload Photo Butonu:
 	Basıldığında UploadActivity’ e gider
 
 
+![image](https://github.com/user-attachments/assets/d10670f3-0047-4176-af70-ae79b7303962)
 
 
 
@@ -37,6 +40,9 @@ Upload butonu
 	
 Home
 	Basıldığında Home ekranına geri döner
+
+ ![image](https://github.com/user-attachments/assets/d28703ef-8676-418a-8bc7-e6045bb9e535)
+
 
 
 IV. Profil Sayfası:
@@ -52,6 +58,9 @@ Edit Photo Butonu:
 Save Photo Butonu:
 	Galeryden seçilen fotorafı giriş yapılan kullanıcın profil fotorafı olacak şekilde kaydeder.
 	Daha sonra Ana ekrana geri döner.
+
+ ![image](https://github.com/user-attachments/assets/aaf5de4a-a06d-49a8-a3a1-a3e013830d8f)
+
 
 V.Like ve Yorumlar:
 
